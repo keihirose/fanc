@@ -1,0 +1,17 @@
+50b2d05586b3197d9f279dd089a0cca6 *DESCRIPTION
+d3f3a9666e125424833e54dbedcfe2b0 *NAMESPACE
+f294f0c04b7c09d993e69c526ea61f28 *R/fanc.R
+03eebd18e2eff915dabf10141398456b *R/out.fanc.R
+888d5d5911e20c605f808fb018fb33e7 *R/plot.fanc.R
+9ffc760177def9421636f505957e2d8e *R/print.fanc.R
+bd3b88d31c59aaa8f846a4d52f942e21 *R/select.fanc.R
+9883be926deaeb9a1d13d43e02f96dc4 *man/fanc.Rd
+5e4d0cbc3d236fc493ae35a9b06eb782 *man/out.fanc.Rd
+cc3d7750eb3293582d81e2bd460a811a *man/plot.fanc.Rd
+43f43d5c68a2c802d1f790c5c250497c *man/select.fanc.Rd
+b4227b295db8b1d1466c95675f04bf9f *src/Makevars
+089d508b82b7dd37ab1594f095df18b1 *src/ezprof.c
+ebc9b680d9836413a7a41e63b079ff56 *src/ezprof.h
+3bb9a3b44aa03defc05d131e7bff180e *src/fanc.c
+dcbaca1b53055585a75dfe25d6b81262 *src/zeroin.c
+3c2aff4b9dcbf713644f7be673e72ccc *src/zeroin.h
