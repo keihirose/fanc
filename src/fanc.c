@@ -12,7 +12,6 @@
 #include <R_ext/BLAS.h>
 #include <R_ext/Lapack.h>
 #include <R_ext/Applic.h>
-#include <omp.h>
 #include "ezprof.h"
 #include "zeroin.h"
 
@@ -1355,9 +1354,6 @@ SEXP RextCall_fanc(
 	};
 	int num_rhos = ctrl.num_rhos;
 	int num_gammas = ctrl.num_gammas;
-	if (ctrl.omp && ctrl.num_threads <= 0) {
-		ctrl.num_threads = omp_get_max_threads();
-	}
 	
 	REXTCALL_DEF(R_rhos, allocMatrix(REALSXP, num_rhos, num_gammas));
 	REXTCALL_DEF(R_gammas, allocVector(REALSXP, num_gammas));
