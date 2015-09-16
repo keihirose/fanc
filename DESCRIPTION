@@ -1,8 +1,8 @@
 Package: fanc
 Type: Package
 Title: Penalized Likelihood Factor Analysis via Nonconvex Penalty
-Version: 1.24
-Date: 2015-09-14
+Version: 1.25
+Date: 2015-09-16
 Author: Kei Hirose, Michio Yamamoto, Haruhisa Nagata
 Maintainer: Kei Hirose <mail@keihirose.com>
 Depends: Matrix
@@ -16,7 +16,7 @@ Description: An R package "fanc" computes the penalized maximum
         parameter. The user can change the regularization parameter by
         manipulating scrollbars, which is helpful to find a suitable
         value of regularization parameter.
-License: file LICENSE
+License: GPL (>= 2)
 URL: http://link.springer.com/article/10.1007%2Fs11222-014-9458-0,
         http://www.sciencedirect.com/science/article/pii/S0167947314001510,
         http://www.keihirose.com
